@@ -1,7 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import { TodoItem } from "./TodoItem";
 export const TodoList = () => {
   return (
-    <div>TodoList</div>
-  )
-}
+    <ul>
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+    </ul>
+  );
+};
