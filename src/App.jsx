@@ -1,7 +1,13 @@
+import { NightModeToggle } from "./NightModeToggle"
+
 function App() {
 
   return (
-   <h1>Hola mundo</h1>
+    <>
+   <NightModeToggle ></NightModeToggle>
+ 
+
+   </>
   )
 }
 
